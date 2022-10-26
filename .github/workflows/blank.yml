@@ -3,7 +3,7 @@ on:
   push:
 jobs:
   test_job:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Check_files 
         uses: BorjaOuterelo/test-file-system-action@v0.0.1
